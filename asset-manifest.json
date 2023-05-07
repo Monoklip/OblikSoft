@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OblikSoft/static/css/main.9c792edc.css",
+    "main.js": "/OblikSoft/static/js/main.3d75099c.js",
+    "index.html": "/OblikSoft/index.html",
+    "main.9c792edc.css.map": "/OblikSoft/static/css/main.9c792edc.css.map",
+    "main.3d75099c.js.map": "/OblikSoft/static/js/main.3d75099c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c792edc.css",
+    "static/js/main.3d75099c.js"
+  ]
+}
