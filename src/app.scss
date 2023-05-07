@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:  none;
+    font-family: monospace;
+}
+
+.App{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+@media screen and (max-width: 400px){
+    .App{
+        grid-template-columns: 1fr 8fr;
+    }
+}

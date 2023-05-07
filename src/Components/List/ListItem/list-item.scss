@@ -1,0 +1,25 @@
+.listItem{
+    width: 300px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ebe6e6;
+
+    &_text{
+        font-size: 18px;
+    }
+    &_date{
+        font-size: 14px;
+        color: grey;
+        margin-top: 5px;
+    }
+
+    &:hover{
+        background: lightblue;
+        cursor: pointer;
+    }
+}
+
+.empty{
+    background: rgb(216, 213, 213);
+    color: white;
+}

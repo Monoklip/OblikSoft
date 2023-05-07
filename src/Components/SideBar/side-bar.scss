@@ -1,0 +1,41 @@
+.side-bar{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: grey;
+    padding: 5px 10px;
+    box-sizing: border-box;
+
+    &__menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &_btn{
+            width: 40px;
+            height: 30px;
+            background: white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(184, 248, 184);
+            cursor: pointer;
+
+            &:disabled{
+                cursor: auto;
+                background: rgb(252, 191, 191);
+            }
+
+            img{
+                height: 100%;
+            }
+        }
+    }
+
+    &__icon-menu{
+        display: none;
+    }
+}
